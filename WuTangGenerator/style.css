@@ -1,0 +1,114 @@
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #ffcc00;
+    font-family: Tahoma, Geneva, sans-serif;
+    text-shadow: 0px 0px 0 rgb(241,190,0),
+                 1px 1px 0 rgb(227,176,0),
+                 2px 2px 0 rgb(213,162,0),
+                 3px 3px 0 rgb(198,147,0),
+                 4px 4px 0 rgb(184,133,0),
+                 5px 5px 0 rgb(170,119,0),
+                 6px 6px  0 rgb(156,105,0),
+                 7px 7px 6px rgba(0,0,0,0.63),
+                 7px 7px 1px rgba(0,0,0,0.5),
+                 0px 0px 6px rgba(0,0,0,.2);
+}
+
+
+body {
+    background-image: url("./giphy.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(13, 12, 12);
+    background-position: right;
+}
+
+h4 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 17px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #FFFFFF;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+    margin: 0; 
+    padding: 1; 
+}
+
+label {
+    color: white;
+    font-size: 16px;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+button {
+    width: 130px;
+    height: 30px;
+    line-height: 22px;
+    padding: 0;
+    border: none;
+    background: rgb(255, 27, 0);
+    background: linear-gradient(0deg, rgba(255, 27, 0, 1) 0%, rgba(251, 75, 2, 1) 100%);
+    margin-top: 2%; 
+}
+
+button:hover {
+    color: #f0094a;
+    background: transparent;
+    box-shadow: none;
+}
+
+button:before,
+button:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: #f0094a;
+    box-shadow:
+        -1px -1px 5px 0px #fff,
+        7px 7px 20px 0px #0003,
+        4px 4px 5px 0px #0002;
+    transition: 400ms ease all;
+}
+
+button:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+}
+
+button:hover:before,
+button:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+}
+
+h2 {
+    font-size: 30px;
+    color: #ffcc00;
+    font-family: Tahoma, Geneva, sans-serif;
+    text-shadow: 0px 0px 0 rgb(241,190,0),
+                 1px 1px 0 rgb(227,176,0),
+                 2px 2px 0 rgb(213,162,0),
+                 3px 3px 0 rgb(198,147,0),
+                 4px 4px 0 rgb(184,133,0),
+                 5px 5px 0 rgb(170,119,0),
+                 6px 6px  0 rgb(156,105,0),
+                 7px 7px 6px rgba(0,0,0,0.63),
+                 7px 7px 1px rgba(0,0,0,0.5),
+                 0px 0px 6px rgba(0,0,0,.2);
+
+}
